@@ -1,8 +1,9 @@
-package ua.org.gostroy.stockwatcher.client;
+package ua.org.gostroy.stockwatcher.client.service;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 import com.google.gwt.core.client.GWT;
+import ua.org.gostroy.stockwatcher.client.StockPrice;
 
 /**
  * Created by panser on 3/14/14.

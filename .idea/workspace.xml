@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5301f50f-01eb-4335-975c-dee20fa86d84" name="Default" comment="" />
+    <list default="true" id="5301f50f-01eb-4335-975c-dee20fa86d84" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\ua\org\gostroy\stockwatcher\client\StockPriceService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" />
+      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\ua\org\gostroy\stockwatcher\client\StockPriceServiceAsync.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="StockWatcher2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,9 +80,9 @@
         </entry>
       </file>
       <file leaf-file-name="StockPriceService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="26" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -103,7 +109,7 @@
       <file leaf-file-name="StockWatcher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="27" selection-start="5580" selection-end="5580" vertical-scroll-proportion="0.27175844" vertical-offset="1989" max-vertical-offset="3247">
+            <state line="175" column="49" selection-start="6364" selection-end="6364" vertical-scroll-proportion="0.8772242" vertical-offset="1989" max-vertical-offset="3247">
               <folding />
             </state>
           </provider>
@@ -112,16 +118,16 @@
       <file leaf-file-name="StockPriceServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="StockPriceServiceAsync.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceServiceAsync.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -427,6 +433,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockWatcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockWatcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stockwatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -621,16 +661,16 @@
       <workItem from="1394702088894" duration="15490000" />
       <workItem from="1394742848676" duration="528000" />
       <workItem from="1394743412642" duration="2483000" />
-      <workItem from="1394749607444" duration="2908000" />
+      <workItem from="1394749607444" duration="3154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21409000" />
+    <option name="totallyTimeSpent" value="21655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -647,15 +687,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21033014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -785,16 +825,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceServiceAsync.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
@@ -806,16 +846,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="26" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="27" selection-start="5580" selection-end="5580" vertical-scroll-proportion="0.27175844" vertical-offset="1989" max-vertical-offset="3247">
+        <state line="175" column="49" selection-start="6364" selection-end="6364" vertical-scroll-proportion="0.8772242" vertical-offset="1989" max-vertical-offset="3247">
           <folding />
         </state>
       </provider>

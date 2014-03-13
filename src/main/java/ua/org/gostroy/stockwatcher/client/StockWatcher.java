@@ -5,11 +5,12 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.*;
 import com.google.gwt.i18n.client.DateTimeFormat;
 import com.google.gwt.i18n.client.NumberFormat;
-import com.google.gwt.user.client.Random;
 import com.google.gwt.user.client.Timer;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
+import ua.org.gostroy.stockwatcher.client.service.StockPriceService;
+import ua.org.gostroy.stockwatcher.client.service.StockPriceServiceAsync;
 
 import java.util.ArrayList;
 import java.util.Date;

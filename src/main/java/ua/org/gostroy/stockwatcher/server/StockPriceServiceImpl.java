@@ -2,7 +2,7 @@ package ua.org.gostroy.stockwatcher.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import ua.org.gostroy.stockwatcher.client.StockPrice;
-import ua.org.gostroy.stockwatcher.client.StockPriceService;
+import ua.org.gostroy.stockwatcher.client.service.StockPriceService;
 
 import java.util.Random;
 
