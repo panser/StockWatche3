@@ -2,6 +2,7 @@ package ua.org.gostroy.stockwatcher.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import ua.org.gostroy.stockwatcher.client.StockPrice;
+import ua.org.gostroy.stockwatcher.client.exception.DelistedException;
 import ua.org.gostroy.stockwatcher.client.service.StockPriceService;
 
 import java.util.Random;
@@ -14,11 +15,14 @@ public class StockPriceServiceImpl extends RemoteServiceServlet implements Stock
     private static final double MAX_PRICE_CHANGE = 0.02; // +/- 2%
 
     @Override
-    public StockPrice[] getPrices(String[] symbols) {
+    public StockPrice[] getPrices(String[] symbols) throws DelistedException{
         Random rnd = new Random();
 
         StockPrice[] prices = new StockPrice[symbols.length];
         for (int i=0; i<symbols.length; i++) {
+            if (symbols[i].equals("ERR")) {
+                throw new DelistedException("ERR");
+            }
             double price = rnd.nextDouble() * MAX_PRICE;
             double change = price * MAX_PRICE_CHANGE * (rnd.nextDouble() * 2f - 1f);
 

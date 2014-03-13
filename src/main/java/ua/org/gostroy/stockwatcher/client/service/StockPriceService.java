@@ -4,13 +4,14 @@ import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 import com.google.gwt.core.client.GWT;
 import ua.org.gostroy.stockwatcher.client.StockPrice;
+import ua.org.gostroy.stockwatcher.client.exception.DelistedException;
 
 /**
  * Created by panser on 3/14/14.
  */
 @RemoteServiceRelativePath("StockPriceService")
 public interface StockPriceService extends RemoteService {
-    StockPrice[] getPrices(String[] symbols);
+    StockPrice[] getPrices(String[] symbols) throws DelistedException;
 
 /*
 *

@@ -51,3 +51,8 @@ body {
 .negativeChange {
     color: red;
 }
+
+/*Displaying error messages for Exception*/
+.errorMessage {
+    color: red;
+}
