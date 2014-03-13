@@ -1,11 +1,11 @@
 package ua.org.gostroy.stockwatcher.client;
 
-import com.google.gwt.user.client.rpc.IsSerializable;
+import java.io.Serializable;
 
 /**
  * Created by panser on 3/13/14.
  */
-public class StockPrice implements IsSerializable {
+public class StockPrice implements Serializable {
     private String symbol;
     private double price;
     private double change;

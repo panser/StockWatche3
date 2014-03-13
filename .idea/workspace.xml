@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5301f50f-01eb-4335-975c-dee20fa86d84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/web/StockWatcher.css" afterPath="$PROJECT_DIR$/src/main/java/web/StockWatcher.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StockWatcher2.iws" />
@@ -80,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockWatcher.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StockWatcher.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.57651246" vertical-offset="424" max-vertical-offset="1071">
+            <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -98,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockPrice.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StockPrice.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="49" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="731">
+            <state line="7" column="23" selection-start="129" selection-end="139" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -180,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/public/StockWatcher.css" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/public/StockWatcher.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceService.java" />
@@ -189,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/StockWatcher.css" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" />
       </list>
     </option>
   </component>
@@ -550,6 +546,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -719,17 +716,21 @@
       <workItem from="1394702088894" duration="15490000" />
       <workItem from="1394742848676" duration="528000" />
       <workItem from="1394743412642" duration="2483000" />
-      <workItem from="1394749607444" duration="3981000" />
+      <workItem from="1394749607444" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="change directory structure for GWT service">
       <created>1394752804663</created>
       <updated>1394752804663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done exception handler for RPC">
+      <created>1394753623134</created>
+      <updated>1394753623134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22482000" />
+    <option name="totallyTimeSpent" value="22591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -780,7 +781,8 @@
     </option>
     <MESSAGE value="mak method over RPC ( http://www.gwtproject.org/doc/latest/tutorial/RPC.html )" />
     <MESSAGE value="change directory structure for GWT service" />
-    <option name="LAST_COMMIT_MESSAGE" value="change directory structure for GWT service" />
+    <MESSAGE value="done exception handler for RPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="done exception handler for RPC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
@@ -928,7 +923,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.57651246" vertical-offset="424" max-vertical-offset="1071">
+        <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="129" selection-end="139" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
