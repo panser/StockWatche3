@@ -10,11 +10,22 @@
     </welcome-file-list>
 
     <servlet>
-        <servlet-name>ua.org.gostroy.stockwatcher.StockWatcher StockPriceService</servlet-name>
+        <servlet-name>StockPriceService</servlet-name>
         <servlet-class>ua.org.gostroy.stockwatcher.server.StockPriceServiceImpl</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ua.org.gostroy.stockwatcher.StockWatcher StockPriceService</servlet-name>
+        <servlet-name>StockPriceService</servlet-name>
+        <!--<url-pattern>/stockwatcher/StockPriceService</url-pattern>-->
         <url-pattern>/ua.org.gostroy.stockwatcher.StockWatcher/StockPriceService</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>jsonStockData</servlet-name>
+        <servlet-class>ua.org.gostroy.stockwatcher.server.JsonStockData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jsonStockData</servlet-name>
+        <url-pattern>/ua.org.gostroy.stockwatcher.StockWatcher/stockPrices</url-pattern>
+    </servlet-mapping>
+
 </web-app>

@@ -14,5 +14,8 @@
 
     <entry-point class='ua.org.gostroy.stockwatcher.client.StockWatcher'/>
     <servlet path="/StockPriceService" class="ua.org.gostroy.stockwatcher.server.StockPriceServiceImpl"/>
+    <!--<servlet path="/jsonStockData" class="ua.org.gostroy.stockwatcher.server.JsonStockData"/>-->
+
+    <!--<inherits name="com.google.gwt.http.HTTP" />-->
 
 </module>

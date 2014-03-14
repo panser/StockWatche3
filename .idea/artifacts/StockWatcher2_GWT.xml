@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact name="StockWatcher2:GWT">
-    <output-path>$PROJECT_DIR$/out/artifacts/StockWatcher2_GWT</output-path>
-    <root id="root">
-      <element id="gwt-compiler-output" facet="StockWatcher2/gwt/GWT" />
-    </root>
-  </artifact>
-</component>
