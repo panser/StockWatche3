@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5301f50f-01eb-4335-975c-dee20fa86d84" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StockWatcher2.iws" />
@@ -67,20 +68,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/web.xml">
+      <file leaf-file-name="StockWatcher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="67" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockWatcher.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
-              <folding />
+            <state line="171" column="32" selection-start="6239" selection-end="6239" vertical-scroll-proportion="0.38273922" vertical-offset="2193" max-vertical-offset="3604">
+              <folding>
+                <element signature="e#1253#1261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,64 +82,11 @@
       <file leaf-file-name="StockPriceService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="69" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockPrice.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="129" selection-end="139" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockWatcher.gwt.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockWatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="3536">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DelistedException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="18" column="46" selection-start="606" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding>
-                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockPriceServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockPriceServiceAsync.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,11 +121,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPriceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/StockWatcher.css" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
       </list>
     </option>
   </component>
@@ -205,6 +146,10 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="StockWatcher2" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -258,8 +203,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -288,7 +233,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -523,6 +467,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -716,7 +661,9 @@
       <workItem from="1394702088894" duration="15490000" />
       <workItem from="1394742848676" duration="528000" />
       <workItem from="1394743412642" duration="2483000" />
-      <workItem from="1394749607444" duration="4090000" />
+      <workItem from="1394749607444" duration="4121000" />
+      <workItem from="1394781278096" duration="681000" />
+      <workItem from="1394784201478" duration="1691000" />
     </task>
     <task id="LOCAL-00001" summary="change directory structure for GWT service">
       <created>1394752804663</created>
@@ -726,14 +673,18 @@
       <created>1394753623134</created>
       <updated>1394753623134</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change IsSerializable -&gt; Serializable for StockPrice">
+      <created>1394753735287</created>
+      <updated>1394753735287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22591000" />
+    <option name="totallyTimeSpent" value="24994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -751,15 +702,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21033014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21001616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -782,7 +733,8 @@
     <MESSAGE value="mak method over RPC ( http://www.gwtproject.org/doc/latest/tutorial/RPC.html )" />
     <MESSAGE value="change directory structure for GWT service" />
     <MESSAGE value="done exception handler for RPC" />
-    <option name="LAST_COMMIT_MESSAGE" value="done exception handler for RPC" />
+    <MESSAGE value="change IsSerializable -&gt; Serializable for StockPrice" />
+    <option name="LAST_COMMIT_MESSAGE" value="change IsSerializable -&gt; Serializable for StockPrice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,6 +744,148 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="67" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="612">
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="3366" max-vertical-offset="4046">
+          <folding>
+            <element signature="e#1253#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="67" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="612">
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4046">
+          <folding>
+            <element signature="e#1253#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="10" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
@@ -808,9 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="10" column="21" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
@@ -823,7 +915,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="25" selection-start="503" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3281">
-          <folding />
+          <folding>
+            <element signature="e#1253#1261#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,21 +959,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="286" selection-end="286" vertical-scroll-proportion="0.30520648" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
+        <state line="10" column="21" selection-start="286" selection-end="286" vertical-scroll-proportion="0.30520648" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -891,36 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="3536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/StockWatcher.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="1" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1071">
@@ -928,10 +983,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/exception/DelistedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/StockPriceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="938" selection-end="938" vertical-scroll-proportion="0.39631903" vertical-offset="0" max-vertical-offset="815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.1437198" vertical-offset="0" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="129" selection-end="139" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="731">
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.5748792" vertical-offset="0" max-vertical-offset="828">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="606" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="32" selection-start="6239" selection-end="6239" vertical-scroll-proportion="0.38273922" vertical-offset="2193" max-vertical-offset="3604">
+          <folding>
+            <element signature="e#1253#1261#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

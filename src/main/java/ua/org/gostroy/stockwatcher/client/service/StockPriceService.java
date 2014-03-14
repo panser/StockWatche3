@@ -18,6 +18,7 @@ public interface StockPriceService extends RemoteService {
      * Utility/Convenience class.
      * Use StockPriceService.App.getInstance() to access static instance of StockPriceServiceAsync
 
+*/
 
     public static class App {
         private static final StockPriceServiceAsync ourInstance = (StockPriceServiceAsync) GWT.create(StockPriceService.class);
@@ -26,5 +27,4 @@ public interface StockPriceService extends RemoteService {
             return ourInstance;
         }
     }
-*/
 }

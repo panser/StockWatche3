@@ -28,7 +28,8 @@ public class StockWatcher implements EntryPoint {
     private Button addStockButton = new Button("Add");
     private Label lastUpdatedLabel = new Label();
     private ArrayList<String> stocks = new ArrayList<String>();
-    private StockPriceServiceAsync stockPriceSvc = GWT.create(StockPriceService.class);
+    private StockPriceServiceAsync stockPriceSvc;
+//    private StockPriceServiceAsync stockPriceSvc = GWT.create(StockPriceService.class);
     private Label errorMsgLabel = new Label();
 
     public void onModuleLoad() {
@@ -159,10 +160,13 @@ public class StockWatcher implements EntryPoint {
 */
 
 
+/*
         // Initialize the service proxy.
         if (stockPriceSvc == null) {
             stockPriceSvc = GWT.create(StockPriceService.class);
         }
+*/
+        stockPriceSvc = StockPriceService.App.getInstance();
 
         // Set up the callback object.
         AsyncCallback<StockPrice[]> callback = new AsyncCallback<StockPrice[]>() {
