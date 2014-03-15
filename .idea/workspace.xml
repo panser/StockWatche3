@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5301f50f-01eb-4335-975c-dee20fa86d84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/JsonStockData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/StockWatcher2_war.xml" />
-      <change type="DELETED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\.idea\artifacts\StockWatcher2_GWT.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\web\GoogleCode.png" afterPath="$PROJECT_DIR$/src/main/web/GoogleCode.png" />
-      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\web\StockWatcher.css" afterPath="$PROJECT_DIR$/src/main/web/StockWatcher.css" />
-      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\web\StockWatcher.html" afterPath="$PROJECT_DIR$/src/main/web/StockWatcher.html" />
-      <change type="MOVED" beforePath="C:\Users\panser\Dropbox\02.home\IdeaProjects\tutorial_GWT\StockWatcher2\src\main\java\web\WEB-INF\web.xml" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test_server_for_sop.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" afterPath="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StockWatcher2.iml" afterPath="$PROJECT_DIR$/StockWatcher2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StockWatcher2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StockWatcher2_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StockWatcher2.iws" />
@@ -83,11 +72,19 @@
       <file leaf-file-name="StockWatcher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="21" selection-start="8646" selection-end="8646" vertical-scroll-proportion="0.6264657" vertical-offset="3264" max-vertical-offset="4896">
+            <state line="35" column="87" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.5410385" vertical-offset="272" max-vertical-offset="3706">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8390#8410#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_server_for_sop.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test_server_for_sop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,7 +92,7 @@
       <file leaf-file-name="StockWatcher.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/StockWatcher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="527">
+            <state line="10" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/web/StockWatcher.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/test_server_for_sop.py" />
         <option value="$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java" />
       </list>
     </option>
@@ -486,6 +484,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockWatcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockWatcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -697,19 +717,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -738,6 +745,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -751,6 +771,11 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <option name="BROWSER" value="Internet Explorer" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -774,9 +799,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
-      <option name="BROWSER" value="Internet Explorer" />
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -788,12 +814,6 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="GWT" type="GWT.ConfigurationType" factoryName="GWT Configuration">
@@ -923,7 +943,8 @@
       <workItem from="1394781278096" duration="681000" />
       <workItem from="1394784201478" duration="3942000" />
       <workItem from="1394788635031" duration="29908000" />
-      <workItem from="1394836530656" duration="3505000" />
+      <workItem from="1394836530656" duration="6884000" />
+      <workItem from="1394869070270" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="change directory structure for GWT service">
       <created>1394752804663</created>
@@ -941,11 +962,15 @@
       <created>1394786419476</created>
       <updated>1394786419477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done communication over JSON ( http://www.gwtproject.org/doc/latest/tutorial/JSON.html )">
+      <created>1394840072353</created>
+      <updated>1394840072353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60658000" />
+    <option name="totallyTimeSpent" value="64350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1000,7 +1025,8 @@
     <MESSAGE value="done exception handler for RPC" />
     <MESSAGE value="change IsSerializable -&gt; Serializable for StockPrice" />
     <MESSAGE value="change create StockPriceService in the interface and use that object all time" />
-    <option name="LAST_COMMIT_MESSAGE" value="change create StockPriceService in the interface and use that object all time" />
+    <MESSAGE value="done communication over JSON ( http://www.gwtproject.org/doc/latest/tutorial/JSON.html )" />
+    <option name="LAST_COMMIT_MESSAGE" value="done communication over JSON ( http://www.gwtproject.org/doc/latest/tutorial/JSON.html )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1010,6 +1036,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/web/StockWatcher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="61" selection-start="760" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="629">
@@ -1022,7 +1055,6 @@
         <state line="19" column="35" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="5151">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,7 +1085,6 @@
         <state line="184" column="56" selection-start="6829" selection-end="6829" vertical-scroll-proportion="0.0" vertical-offset="3128" max-vertical-offset="4114">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,22 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
-          <folding>
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#860#861#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
@@ -1133,7 +1149,6 @@
         <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="3366" max-vertical-offset="4046">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1157,7 +1172,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306" />
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
@@ -1187,22 +1204,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
-          <folding>
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#860#861#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/StockWatcher.gwt.xml">
@@ -1217,7 +1219,6 @@
         <state line="198" column="40" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4046">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1241,7 +1242,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1275,7 +1278,6 @@
         <state line="17" column="25" selection-start="503" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="3281">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1328,27 +1330,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.1437198" vertical-offset="0" max-vertical-offset="828" />
+        <state line="8" column="26" selection-start="228" selection-end="228" vertical-scroll-proportion="0.1437198" vertical-offset="0" max-vertical-offset="828">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#860#861#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="36" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/service/StockPriceService.java">
@@ -1371,9 +1360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="156" selection-end="156" vertical-scroll-proportion="0.24908425" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="8" column="16" selection-start="156" selection-end="156" vertical-scroll-proportion="0.24908425" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/server/JsonStockData.java">
@@ -1406,17 +1393,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/StockWatcher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="527">
+        <state line="10" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test_server_for_sop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/org/gostroy/stockwatcher/client/StockWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="21" selection-start="8646" selection-end="8646" vertical-scroll-proportion="0.6264657" vertical-offset="3264" max-vertical-offset="4896">
+        <state line="35" column="87" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.5410385" vertical-offset="272" max-vertical-offset="3706">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8390#8410#0" expanded="true" />
           </folding>
         </state>
       </provider>
